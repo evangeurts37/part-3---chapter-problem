@@ -50,12 +50,13 @@
             // 
             // btnSubmit
             // 
+            this.btnSubmit.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnSubmit.Location = new System.Drawing.Point(196, 150);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(102, 38);
             this.btnSubmit.TabIndex = 1;
             this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // lblInstructionage
@@ -130,7 +131,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(530, 200);
+            this.BackColor = System.Drawing.Color.Plum;
+            this.ClientSize = new System.Drawing.Size(718, 200);
             this.Controls.Add(this.nudAge);
             this.Controls.Add(this.lblAnswerheight);
             this.Controls.Add(this.lblAnswerage);
