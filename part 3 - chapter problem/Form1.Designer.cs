@@ -101,6 +101,7 @@
             this.lblAnswername.Size = new System.Drawing.Size(50, 13);
             this.lblAnswername.TabIndex = 7;
             this.lblAnswername.Text = "Message";
+            this.lblAnswername.Visible = false;
             // 
             // lblAnswerage
             // 
@@ -110,6 +111,7 @@
             this.lblAnswerage.Size = new System.Drawing.Size(50, 13);
             this.lblAnswerage.TabIndex = 8;
             this.lblAnswerage.Text = "Message";
+            this.lblAnswerage.Visible = false;
             // 
             // lblAnswerheight
             // 
@@ -119,6 +121,7 @@
             this.lblAnswerheight.Size = new System.Drawing.Size(50, 13);
             this.lblAnswerheight.TabIndex = 9;
             this.lblAnswerheight.Text = "Message";
+            this.lblAnswerheight.Visible = false;
             // 
             // nudAge
             // 

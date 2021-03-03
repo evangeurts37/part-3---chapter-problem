@@ -18,7 +18,17 @@ namespace part_3___chapter_problem
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
+
         {
+            lblAnswerage.Visible = true;
+            lblAnswerheight.Visible =true;
+            lblAnswername.Visible = true;
+
+
+
+
+
+
             string name = txtName.Text;
             lblAnswername.Text = "Hello " + name;
 
@@ -26,7 +36,7 @@ namespace part_3___chapter_problem
             lblAnswerage.Text = "You are " + (82 - age) + " years away from the average life expectancy in Canada.";
 
             double height = (double)Convert.ToDouble(txtHeight.Text);
-            lblAnswerheight.Text = "You are" +Math.Round (2.72 - height,2)+ " merters shorter than the tallest person ever.";
+            lblAnswerheight.Text = "You are " +Math.Round (2.72 - height,2)+ " merters shorter than the tallest person ever.";
 
 
 
