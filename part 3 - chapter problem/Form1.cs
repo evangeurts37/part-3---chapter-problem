@@ -19,13 +19,14 @@ namespace part_3___chapter_problem
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            string Name = txtName.Text;
+            string name = txtName.Text;
             lblAnswername.Text = "Hello " + Name;
 
-            int age = Convert.ToInt32(nudAge);
-            lblAnswerage.Text = "you are " + nudAge;
+            int age = Convert.ToInt32(nudAge.Value);
+            lblAnswerage.Text = "you are " + (82 - age) + " years away from the average life expectancy in Canada";
 
-            double Height = (double)Convert.ToInt32(txtHeight);
+
+            
             
 
         }
