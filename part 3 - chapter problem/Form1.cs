@@ -16,5 +16,18 @@ namespace part_3___chapter_problem
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            string Name = txtName.Text;
+            lblAnswername.Text = "Hello " + Name;
+
+            int age = Convert.ToInt32(nudAge);
+            lblAnswerage.Text = "you are " + nudAge;
+
+            double Height = (double)Convert.ToInt32(txtHeight);
+            
+
+        }
     }
 }
